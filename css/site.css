@@ -25,3 +25,11 @@ margin-right: 2800px;
 #self figcaption{
   color: red;
 }
+
+#figurediv{
+  position:absolute;
+  left: 120px;
+}
+#caption{
+  color:red;
+}
