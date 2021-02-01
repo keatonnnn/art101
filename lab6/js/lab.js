@@ -15,7 +15,11 @@
      make: "Mazda",
     model: "bebop",
     color: "gray",
-    year: 2014,  };
+    year: 2014,
+    age : function(){
+      return 2021 - age;
+    }
+   };
 
 
 //output
