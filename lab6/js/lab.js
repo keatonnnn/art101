@@ -17,7 +17,7 @@
     color: "gray",
     year: 2014,
     age : function(){
-      return 2021 - age;
+      return 2021 - year;
     }
    };
 
