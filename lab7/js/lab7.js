@@ -12,6 +12,11 @@
 
 
 
+
+
+document.writeln("here's your name back by the way sorry if it's messed up. ", myFunk(), "</br>");
+document.writeln("see you later.");
+
 //myFunk is gonn take the input and sort the letters
 function myFunk() {
   var userName = window.prompt("give me your user name.");
@@ -33,9 +38,3 @@ function myFunk() {
   return sortedName;
 
 }
-
-
-
-
-
-document.writeln("here's your name back.",);
