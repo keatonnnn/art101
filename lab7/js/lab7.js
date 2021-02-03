@@ -14,12 +14,12 @@
 
 
 
-document.writeln("here's your name back by the way sorry if it's messed up. ", myFunk(), "</br>");
+document.writeln("here's your name back by the way. sorry if it's messed up. ","</br>","</br>","</br>",                 myFunk(), "</br>","</br>","</br>");
 document.writeln("see you later.");
 
 //myFunk is gonn take the input and sort the letters
 function myFunk() {
-  var userName = window.prompt("give me your user name.");
+  var userName = window.prompt("give me your name.");
   console.log("userName", userName);
 
   //split string into an array
