@@ -26,3 +26,12 @@ function testBigger (firstNum,secondNum){
     console.log(result);
 }
 console.log(testBigger(7,9));
+
+
+
+
+function firstLast(firstName,lastName){
+    var rezult = "First name: "+firstName +" Last name: " + lastName ;
+    return rezult;
+}
+console.log(firstLast("keaton","brasse"));
