@@ -19,8 +19,10 @@ firstFunction();
 
 
 function testBigger (firstNum,secondNum){
-  //  console.log("first number: " + firstNum+ " second number : " +secondNum+" comparison: ")(firstNum>secondNum) );
-    //console.log( (firstNum>secondNum) );
-}
+    var result;
+    result= firstNum>secondNum;
 
-testBigger(firstNum)
+    return result;
+    console.log(result);
+}
+console.log(testBigger(7,9));
