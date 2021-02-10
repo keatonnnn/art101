@@ -1,0 +1,17 @@
+body {
+  background-color: gray;
+}
+
+p{
+  font-family: Arnoldboecklin fantasy;
+  text-indent: 20px
+}
+h1{
+
+    font-family: Arnoldboecklin fantasy;
+    color: darkred;
+}
+
+#output p, yy {
+  font-family: papyrus;
+}

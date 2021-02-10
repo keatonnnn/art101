@@ -35,3 +35,14 @@ function firstLast(firstName,lastName){
     return rezult;
 }
 console.log(firstLast("keaton","brasse"));
+
+
+
+
+var myVarFun = function(){
+  console.log("testing testing")
+}
+
+setTimeout(function(){
+  console.log("testing testing again!");
+} ,4000);

@@ -1,5 +1,5 @@
 body {
-  background-color: purple;
+  background-color: gray;
 }
 
 p{
@@ -7,5 +7,7 @@ p{
   text-indent: 20px
 }
 h1{
+
     font-family: Helvetica;
+
 }
