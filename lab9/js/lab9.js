@@ -28,3 +28,4 @@ bigbody.style.marginRight="400px"
 
 output.style.backgroundColor="darkred";
 output.style.marginRight="750px"
+output.
