@@ -13,5 +13,21 @@ console.log(messageVar);
  seaWorld.innerHTML="fuck seaworld";
 }
 
-//eventlistener for button
-document.getElementById("bio_submit_id").addEventListener('click', submitBio);
+
+
+
+
+//
+// function colorMe (){
+//   //$("#name_email_id").style.color="green";
+// $("#name_email_id").addClass("color_me");
+//
+// //eventlistener for button
+// var colorButton = document.getElementById("#colorButton");
+//
+// colorButton.click.(colorMe);
+
+$("#colorButton").click(function(){
+  $(this).parent()
+  $("#name_email_id").toggleClass("color_me");
+})
