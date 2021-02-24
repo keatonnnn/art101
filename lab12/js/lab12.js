@@ -31,7 +31,7 @@ $("#mybutton").click(function(){
 //get input value
 var name = $("#input").val();
 //get  length  of inputtted namee
-var nameLength = name.length;
+//var nameLength = name.length;
 //execute the hat function with the namelength, assign it to variable house
 var house = sortingHat(name);
 

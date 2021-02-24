@@ -23,7 +23,7 @@ $("#problems").append(buttonVar2);
 
 $("#results").append(buttonVar3);
 
-
+//bonus
 var buttonVar4 = $('<button id="bonus1">bonus button 1</button>').click(function(){ $("#bonus2").toggleClass("redbutton");
 });
 

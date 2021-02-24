@@ -1,0 +1,16 @@
+
+body{
+  background color:white;
+
+}
+
+.mapdiv path{
+  fill: beige;
+  stroke: black;
+
+}
+
+
+.mapdiv :hover{
+    fill:red;
+}
