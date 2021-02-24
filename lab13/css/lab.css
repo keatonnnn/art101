@@ -9,9 +9,9 @@ p {
 
 .special {
   font-style: italic;
-  font-family:papyrus;
-   background-color: lime;
- width: 300px;
+  font-family:georgia;
+  font-size: 200%;
+
 }
 
 .special p{
