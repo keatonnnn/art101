@@ -4,13 +4,14 @@ body{
 
 }
 
-.mapdiv path{
-  fill: beige;
-  stroke: black;
-
-}
 
 
 .mapdiv :hover{
-    fill:red;
+    fill:#FF606A;
+}
+
+.mapdiv path{
+  fill: #ADFFB4;
+  stroke: black;
+
 }

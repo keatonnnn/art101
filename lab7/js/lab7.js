@@ -22,6 +22,8 @@ function myFunk() {
   var userName = window.prompt("give me your name.");
   console.log("userName", userName);
 
+
+
   //split string into an array
   var nameArray = userName.split("")
   console.log("nameArray=", nameArray);
