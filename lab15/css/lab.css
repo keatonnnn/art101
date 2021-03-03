@@ -1,5 +1,5 @@
 body {
-  background-color: darkgreen;
+  background-color: coral;
 }
 
 p {
@@ -9,7 +9,7 @@ p {
 
 .special {
   font-style: italic;
-  font-family:georgia;
+  font-family:arial;
   font-size: 200%;
 
 }
