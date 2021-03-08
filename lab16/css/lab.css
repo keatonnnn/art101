@@ -1,0 +1,23 @@
+body {
+  background-color: coral;
+}
+
+p {
+  text-indent: 20px;
+}
+
+
+.special {
+  font-style: italic;
+  font-family:arial;
+  font-size: 200%;
+
+}
+
+.special p{
+  color:white;
+}
+
+.redbutton{
+  background-color:red;
+}
