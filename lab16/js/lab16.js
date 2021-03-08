@@ -47,11 +47,13 @@ $.ajax({
         console.log(data);
 
         $("#titulo").html(data.safe_title);
+
         $("#output").html(JSON.stringify(data));
     },
     // What we do if the api call fails
     error: function (jqXHR, textStatus, errorThrown) {
         // do stuff
+          $("#titulo").html("Error");
         console.log("Error:", textStatus, errorThrown);
         $("#output").html("Error");
     }
